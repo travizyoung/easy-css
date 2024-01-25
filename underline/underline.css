@@ -1,0 +1,44 @@
+*, html, body {
+  background-color: #2b2b2b;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+div {
+  font-size: 48px;
+  font-weight: bold;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+/*--------------------------------------*/
+
+/* a {
+  color: #b69dcd;
+  text-decoration: none;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+  height: 7px;
+  background: lime;
+} */
+
+a {
+  text-decoration-thickness: 0.5rem;
+  text-decoration-color: lime;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-line: underline ;
+
+  text-underline-offset: 1em;
+
+  /* order here doesn't matter */
+  /* text-decoration: orangered 0.5rem dotted line-through; */
+}
